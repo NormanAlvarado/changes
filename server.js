@@ -5,7 +5,6 @@ require('dotenv').config();
 
 // Imports
 const express = require("express");
-const session = require("express-session");
 const { auth } = require('express-openid-connect');
 const { requiresAuth } = require('express-openid-connect');
 var cons = require('consolidate');
